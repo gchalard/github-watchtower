@@ -39,6 +39,7 @@ func main() {
 		}
 
 		datetime = time.Now()
+		time.Sleep(15 * time.Second)
 	}
 
 	wg.Wait()
