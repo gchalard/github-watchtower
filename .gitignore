@@ -1,0 +1,8 @@
+# Local env and secrets (never commit)
+.env
+.env.*
+*.pem
+*.key
+
+# Optional: remove "k8s" below if you want to commit k8s/ manifests
+k8s
