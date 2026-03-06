@@ -29,4 +29,6 @@ target "__default__" {
   context = "."
   tags = [ "${registry}/${image}:${tag}" ]
   platforms = [ "linux/amd64", "linux/arm64" ]
+  cache-from = cache
+  cache-to = cache
 }
